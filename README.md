@@ -1,7 +1,14 @@
 # ESRI_Portal_AGOL_ETL
 A script for simple Data ETL between [ESRI Portal](https://enterprise.arcgis.com/en/portal/) &amp; [ArcGIS Online](https://www.arcgis.com/index.html)
+This scrip came out of the need to publish data from ESRI Portal to ArcGIS online at some interval. 
 
+------
 ## Usage
+
+### Setup Parameters
+In the `portal_agol.py` edit the `target` and `source` credentials represneting the ESRI Portal and ArcGIS online accounts respectively as needed.
+
+### Python Usage
 ``` python
 import ESRI_Portal_AGOL_ETL as agol
 
