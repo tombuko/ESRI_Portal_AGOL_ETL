@@ -3,13 +3,13 @@ A script for simple Data ETL between [ESRI Portal](https://enterprise.arcgis.com
 
 This script came out of the 
 need to publish data from ESRI Portal 
-to ArcGIS online a specified interval. 
+to ArcGIS online at a specified interval. 
 
 ------
 ## Usage
 
 ### Setup Parameters
-In the `portal_agol.py` edit the `target` and `source` credentials represneting the ESRI Portal and ArcGIS online accounts respectively as needed.
+In the `portal_agol.py` edit the `target` and `source` credentials represneting the ESRI Portal and ArcGIS online accounts as needed.
 
 ### Python Usage
 ``` python
